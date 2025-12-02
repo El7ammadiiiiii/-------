@@ -1,0 +1,24 @@
+# IMPORTANT: Security Notice ⚠️
+# Your OpenAI and Twilio credentials were exposed in your message.
+# You MUST regenerate new API keys immediately:
+
+# 1. OpenAI: https://platform.openai.com/api-keys
+#    - Delete the old key: sk-proj-rdGLggmNgbl25fuk_...
+#    - Generate a new one
+
+# 2. Twilio: https://console.twilio.com/
+#    - Regenerate your Auth Token
+
+# DO NOT USE THE EXPOSED KEYS ANYMORE - THEY ARE COMPROMISED!
+
+# After regenerating, create a .env file with your NEW credentials:
+# Copy this template to .env and fill with NEW values
+
+OPENAI_API_KEY=your_new_openai_key_here
+TWILIO_ACCOUNT_SID=your_new_account_sid_here
+TWILIO_AUTH_TOKEN=your_new_auth_token_here
+TWILIO_PHONE_NUMBER=whatsapp:+15855268642
+
+DATABASE_URL=sqlite:///./shop.db
+HOST=0.0.0.0
+PORT=8000
